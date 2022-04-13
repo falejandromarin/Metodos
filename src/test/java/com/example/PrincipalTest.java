@@ -12,7 +12,7 @@ class PrincipalTest {
 	System.out.println("suma");
 	Principal prin = new Principal(3,3,0);
     prin.suma();
-    int expResult = 7;
+    int expResult = 6;
     int result = prin.suma();
     assertEquals(expResult, result);
 }
