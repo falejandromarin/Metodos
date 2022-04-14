@@ -2,8 +2,8 @@ package com.example;
 
 public class Principal {
 	
-	int a=5;
-	int b=5;
+	int a=0;
+	int b=0;
 	int total=0;
 	
 	public Principal(int a, int b, int total) {
