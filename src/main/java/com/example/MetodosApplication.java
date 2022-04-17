@@ -7,11 +7,12 @@ public class MetodosApplication {
 
 	public static void main(String[] args) {
 		
-		Principal prin= new Principal(3,3,0);
+		Principal prin= new Principal(1,3,0,0);
 		
 		prin.suma();
+		prin.multiplicacion();
 	
-		System.out.println("La suma es: "+prin.total);
+		System.out.println("Sumado es: "+prin.totalsuma+   " y Multplicado es:  " +prin.totalmulti);
 		
 		
 	}
