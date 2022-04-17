@@ -25,7 +25,7 @@ class PrincipalTest {
 		
 	Principal prin = new Principal(1,3,0,0);
     prin.multiplicacion();
-    int expResult = 5;
+    int expResult = 3;
     int result = prin.multiplicacion();
     assertEquals(expResult, result);
     
