@@ -17,6 +17,7 @@ class PrincipalTest {
     assertEquals(expResult, result);
     
 	System.out.println(" La suma es: " +prin.totalsuma);
+<<<<<<< HEAD
 }
 	
 	
@@ -30,6 +31,24 @@ class PrincipalTest {
     assertEquals(expResult, result);
     
     System.out.println(" Multiplicado es: " +prin.totalmulti);
+=======
+}
+	
+	
+	@Test
+	public void testmultiplicacion() {
+		
+	Principal prin = new Principal(1,3,0,0);
+    prin.multiplicacion();
+    int expResult = 3;
+    int result = prin.multiplicacion();
+    assertEquals(expResult, result);
+    
+    System.out.println(" Multiplicado es: " +prin.totalmulti);
+}
+	
+	
+>>>>>>> 2da2eda016907bc8d90acc48050e8343fc833878
 }
 	
 	
