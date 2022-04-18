@@ -9,11 +9,28 @@ class PrincipalTest {
 	@Test
 	public void testsuma() {
 	
-	System.out.println("suma");
-	Principal prin = new Principal(5,5,0);
+
+	Principal prin = new Principal(1,3,0,0);
     prin.suma();
-    int expResult = 10;
+    int expResult = 4;
     int result = prin.suma();
     assertEquals(expResult, result);
+    
+	System.out.println(" La suma es: " +prin.totalsuma);
 }
+	
+	
+	@Test
+	public void testmultiplicacion() {
+		
+	Principal prin = new Principal(1,3,0,0);
+    prin.multiplicacion();
+    int expResult = 3;
+    int result = prin.multiplicacion();
+    assertEquals(expResult, result);
+    
+    System.out.println(" Multiplicado es: " +prin.totalmulti);
+}
+	
+	
 }
